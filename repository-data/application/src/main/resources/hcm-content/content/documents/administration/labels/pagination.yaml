@@ -1,0 +1,22 @@
+/content/documents/administration/labels/pagination:
+  jcr:primaryType: hippo:handle
+  jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+  jcr:uuid: 4a03168a-411d-48fd-9648-6d3993596afd
+  hippo:name: Pagination
+  /pagination:
+    jcr:primaryType: resourcebundle:resourcebundle
+    jcr:mixinTypes: ['mix:referenceable']
+    jcr:uuid: 35ac1b0c-cf25-46a8-bf38-e43b7f9231bf
+    hippo:availability: [live, preview]
+    hippostd:state: published
+    hippostdpubwf:createdBy: admin
+    hippostdpubwf:creationDate: 2014-08-21T14:30:14.382+02:00
+    hippostdpubwf:lastModificationDate: 2014-08-21T17:03:32.811+02:00
+    hippostdpubwf:lastModifiedBy: admin
+    hippostdpubwf:publicationDate: 2014-08-21T17:06:47.420+02:00
+    resourcebundle:descriptions: ['Used in the indication, how many results were found.
+        The label is appended to the number of results.', Label used for the link
+        to the previous page., Label used for the link to the next page.]
+    resourcebundle:id: essentials.pagination
+    resourcebundle:keys: [results.indication, page.previous, page.next]
+    resourcebundle:messages: [document(s), previous, next]

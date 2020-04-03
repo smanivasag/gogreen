@@ -1,0 +1,407 @@
+/content/documents/gogreen/banners:
+  .meta:order-before: about
+  jcr:primaryType: hippostd:folder
+  jcr:mixinTypes: ['hippotranslation:translated', 'mix:referenceable']
+  jcr:uuid: 4904629d-7d86-404b-8cc2-53ce5d49be7e
+  hippostd:foldertype: [new-banner-document, new-banner-folder]
+  hippotranslation:id: a4ea7fd1-10f1-4716-8bb8-995859730b50
+  hippotranslation:locale: en
+  /banner1:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['hippo:versionInfo', 'mix:referenceable']
+    jcr:uuid: 895fb1b6-410d-4972-9894-6b6a06d2b361
+    hippo:versionHistory: 33677947-6e1e-4bc3-a838-e81a1864a9f7
+    /banner1[1]:
+      jcr:primaryType: gogreen:bannerdocument
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 7025934e-4bde-4172-a749-2a16761342f0
+      gogreen:title: Sample banner
+      hippo:availability: [live]
+      hippostd:holder: admin
+      hippostd:state: published
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2014-03-20T17:00:00+01:00
+      hippostdpubwf:lastModificationDate: 2014-03-20T17:04:00+01:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippostdpubwf:publicationDate: 2014-03-20T17:04:00+01:00
+      hippotranslation:id: 32d7e77b-7e9e-4883-bc69-c452723d4768
+      hippotranslation:locale: en
+      /gogreen:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+          sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+          ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+          ex ea commodo consequat.</p>
+      /gogreen:image:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: 9e440e6d-e93a-4d5f-913b-9c3b0867c812
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []
+      /gogreen:link:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+    /banner1[2]:
+      jcr:primaryType: gogreen:bannerdocument
+      jcr:mixinTypes: ['mix:referenceable', 'mix:versionable']
+      jcr:uuid: 097f47a5-3f54-4e36-ab92-ea931f3b69d2
+      gogreen:title: Sample banner
+      hippo:availability: [preview]
+      hippostd:state: unpublished
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2014-03-20T17:00:00+01:00
+      hippostdpubwf:lastModificationDate: 2014-03-20T17:04:00+01:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: 32d7e77b-7e9e-4883-bc69-c452723d4768
+      hippotranslation:locale: en
+      /gogreen:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+          sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+          ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+          ex ea commodo consequat.</p>
+      /gogreen:image:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: 9e440e6d-e93a-4d5f-913b-9c3b0867c812
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []
+      /gogreen:link:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+    /banner1[3]:
+      jcr:primaryType: gogreen:bannerdocument
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: e7ff35de-af86-44d9-b41e-1fd0d000698d
+      gogreen:title: Sample banner
+      hippo:availability: []
+      hippostd:state: draft
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2014-03-20T17:00:00+01:00
+      hippostdpubwf:lastModificationDate: 2020-02-17T00:47:02.606Z
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: 32d7e77b-7e9e-4883-bc69-c452723d4768
+      hippotranslation:locale: en
+      /gogreen:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+          sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+          ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+          ex ea commodo consequat.</p>
+      /gogreen:image:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: 9e440e6d-e93a-4d5f-913b-9c3b0867c812
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []
+      /gogreen:link:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+  /banner2:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+    jcr:uuid: 9a3f1f5c-5302-43c4-9bec-584e810ffa2f
+    hippo:name: banner2
+    /banner2:
+      jcr:primaryType: gogreen:bannerdocument
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 33999cd7-a030-47cc-a246-cc61472b8fa3
+      gogreen:title: Sample banner 2
+      hippo:availability: [live, preview]
+      hippostd:holder: admin
+      hippostd:state: published
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2014-03-20T17:00:00+01:00
+      hippostdpubwf:lastModificationDate: 2014-03-20T17:04:00+01:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippostdpubwf:publicationDate: 2014-03-20T17:04:00+01:00
+      hippotranslation:id: db7e5b4c-b63d-43c1-9458-f9dbe1afa520
+      hippotranslation:locale: en
+      /gogreen:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+          sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+          ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+          ex ea commodo consequat.</p>
+      /gogreen:image:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: dc6c2247-d3f4-4be0-976e-749b69927eee
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []
+      /gogreen:link:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+  /10-simple-steps-to-green-your-office:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['hippo:named', 'hippo:versionInfo', 'mix:referenceable']
+    jcr:uuid: bdd2513b-e8ef-4479-b05c-58d2c7ebf8ae
+    hippo:name: 10 simple steps to green your office
+    hippo:versionHistory: 9259c6d1-3a58-4093-87cb-7db6968e68a4
+    /10-simple-steps-to-green-your-office[1]:
+      jcr:primaryType: gogreen:bannerdocument
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 16ecfab4-687e-4d8c-9ed0-1ad1231ce4aa
+      gogreen:title: 10 simple steps to green your office
+      hippo:availability: []
+      hippo:related___pathreference: []
+      hippostd:state: draft
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2019-12-30T01:20:28.944Z
+      hippostdpubwf:lastModificationDate: 2019-12-30T01:21:44.249Z
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: 77df75a1-d164-4d0c-81bf-0bee448416a9
+      hippotranslation:locale: en
+      /gogreen:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: <p>The following list for greening your office is by no
+          means exhaustive, but a way to get started in making your workplace more
+          environmentally friendly.</p>
+      /gogreen:image:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: a6b5a6ce-0361-4946-ba12-895fbe1a83a1
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []
+      /gogreen:link:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: c580ac64-3874-4717-a6d9-e5ad72080abe
+    /10-simple-steps-to-green-your-office[2]:
+      jcr:primaryType: gogreen:bannerdocument
+      jcr:mixinTypes: ['mix:referenceable', 'mix:versionable']
+      jcr:uuid: 018d7e0b-925a-4d8b-9d91-6e3857d542ab
+      gogreen:title: 10 simple steps to green your office
+      hippo:availability: [preview]
+      hippo:related___pathreference: []
+      hippostd:state: unpublished
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2019-12-30T01:20:28.944Z
+      hippostdpubwf:lastModificationDate: 2019-12-30T01:21:44.151Z
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: 77df75a1-d164-4d0c-81bf-0bee448416a9
+      hippotranslation:locale: en
+      /gogreen:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: <p>The following list for greening your office is by no
+          means exhaustive, but a way to get started in making your workplace more
+          environmentally friendly.</p>
+      /gogreen:image:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: a6b5a6ce-0361-4946-ba12-895fbe1a83a1
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []
+      /gogreen:link:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: c580ac64-3874-4717-a6d9-e5ad72080abe
+    /10-simple-steps-to-green-your-office[3]:
+      jcr:primaryType: gogreen:bannerdocument
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 51936786-6f7e-4494-84ce-5deaf5edf534
+      gogreen:title: 10 simple steps to green your office
+      hippo:availability: [live]
+      hippo:related___pathreference: []
+      hippostd:state: published
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2019-12-30T01:20:28.944Z
+      hippostdpubwf:lastModificationDate: 2019-12-30T01:21:44.151Z
+      hippostdpubwf:lastModifiedBy: admin
+      hippostdpubwf:publicationDate: 2019-12-30T01:22:03.970Z
+      hippotranslation:id: 77df75a1-d164-4d0c-81bf-0bee448416a9
+      hippotranslation:locale: en
+      /gogreen:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: <p>The following list for greening your office is by no
+          means exhaustive, but a way to get started in making your workplace more
+          environmentally friendly.</p>
+      /gogreen:image:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: a6b5a6ce-0361-4946-ba12-895fbe1a83a1
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []
+      /gogreen:link:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: c580ac64-3874-4717-a6d9-e5ad72080abe
+  /is-a-smart-thermostat-worth-the-investment:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['hippo:named', 'hippo:versionInfo', 'mix:referenceable']
+    jcr:uuid: 69cefffc-7759-495e-98c4-dabbfedbfdec
+    hippo:name: Is a smart thermostat worth the investment?
+    hippo:versionHistory: de01fcb4-c315-4af3-a06c-fddd4b755acd
+    /is-a-smart-thermostat-worth-the-investment[1]:
+      jcr:primaryType: gogreen:bannerdocument
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 8adfe594-d44b-424c-895f-7d0ee8549416
+      gogreen:title: Is a smart thermostat worth the investment?
+      hippo:availability: []
+      hippo:related___pathreference: []
+      hippostd:state: draft
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2019-12-30T01:22:22.934Z
+      hippostdpubwf:lastModificationDate: 2019-12-30T01:38:43.494Z
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: 146d9753-2544-4386-bfc7-46e6b0e01e08
+      hippotranslation:locale: en
+      /gogreen:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: <p>Will I really be able to save money and energy in the
+          long run by spending hundreds of dollars now for a so-called "smart" thermostat?</p>
+      /gogreen:image:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: aefd0c03-3d9e-4475-9b21-46eac4fd8ea4
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []
+      /gogreen:link:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: 30092f4e-2ef7-4c72-86a5-8ce895908937
+    /is-a-smart-thermostat-worth-the-investment[2]:
+      jcr:primaryType: gogreen:bannerdocument
+      jcr:mixinTypes: ['mix:referenceable', 'mix:versionable']
+      jcr:uuid: 6e293d7f-69d2-46a6-925c-63ebd26dc746
+      gogreen:title: Is a smart thermostat worth the investment?
+      hippo:availability: [preview]
+      hippo:related___pathreference: []
+      hippostd:state: unpublished
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2019-12-30T01:22:22.934Z
+      hippostdpubwf:lastModificationDate: 2019-12-30T01:38:43.402Z
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: 146d9753-2544-4386-bfc7-46e6b0e01e08
+      hippotranslation:locale: en
+      /gogreen:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: <p>Will I really be able to save money and energy in the
+          long run by spending hundreds of dollars now for a so-called "smart" thermostat?</p>
+      /gogreen:image:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: aefd0c03-3d9e-4475-9b21-46eac4fd8ea4
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []
+      /gogreen:link:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: 30092f4e-2ef7-4c72-86a5-8ce895908937
+    /is-a-smart-thermostat-worth-the-investment[3]:
+      jcr:primaryType: gogreen:bannerdocument
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 16c6088b-31a0-460c-9d5c-ffd4e9fb909f
+      gogreen:title: Is a smart thermostat worth the investment?
+      hippo:availability: [live]
+      hippo:related___pathreference: []
+      hippostd:state: published
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2019-12-30T01:22:22.934Z
+      hippostdpubwf:lastModificationDate: 2019-12-30T01:38:43.402Z
+      hippostdpubwf:lastModifiedBy: admin
+      hippostdpubwf:publicationDate: 2019-12-30T01:38:53.168Z
+      hippotranslation:id: 146d9753-2544-4386-bfc7-46e6b0e01e08
+      hippotranslation:locale: en
+      /gogreen:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: <p>Will I really be able to save money and energy in the
+          long run by spending hundreds of dollars now for a so-called "smart" thermostat?</p>
+      /gogreen:image:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: aefd0c03-3d9e-4475-9b21-46eac4fd8ea4
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []
+      /gogreen:link:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: 30092f4e-2ef7-4c72-86a5-8ce895908937
+  /how-to-green-your-dorm-room:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['hippo:named', 'hippo:versionInfo', 'mix:referenceable']
+    jcr:uuid: 7fa48301-5ba4-47de-9bac-53fd030e7dbf
+    hippo:name: How to green your dorm room
+    hippo:versionHistory: f64baf88-0dc0-4dac-b63a-e04ef4917f29
+    /how-to-green-your-dorm-room[1]:
+      jcr:primaryType: gogreen:bannerdocument
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 67548ada-65e1-4617-867c-7b35de8eff68
+      gogreen:title: How to green your dorm room
+      hippo:availability: []
+      hippo:related___pathreference: []
+      hippostd:state: draft
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2019-12-30T01:23:06.184Z
+      hippostdpubwf:lastModificationDate: 2019-12-30T01:23:32.241Z
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: b7c9b947-6a4b-4406-be5c-2bd5c4134a1f
+      hippotranslation:locale: en
+      /gogreen:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: |-
+          <p>Every year, college students generate thousands of tons of garbage, because of the choices they make in buying furniture and accessories. Luckily, getting your dorm to be</p>
+
+          <p>green has never been easier.</p>
+      /gogreen:image:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: 51499807-2c3d-4e10-8e1d-021a303c4371
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []
+      /gogreen:link:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: aeda2bcd-b21d-4ead-a2e6-c64a2ca051c8
+    /how-to-green-your-dorm-room[2]:
+      jcr:primaryType: gogreen:bannerdocument
+      jcr:mixinTypes: ['mix:referenceable', 'mix:versionable']
+      jcr:uuid: 12a1d08c-c1bd-4e91-b465-006a10afe1f5
+      gogreen:title: How to green your dorm room
+      hippo:availability: [preview]
+      hippo:related___pathreference: []
+      hippostd:state: unpublished
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2019-12-30T01:23:06.184Z
+      hippostdpubwf:lastModificationDate: 2019-12-30T01:23:32.213Z
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: b7c9b947-6a4b-4406-be5c-2bd5c4134a1f
+      hippotranslation:locale: en
+      /gogreen:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: |-
+          <p>Every year, college students generate thousands of tons of garbage, because of the choices they make in buying furniture and accessories. Luckily, getting your dorm to be</p>
+
+          <p>green has never been easier.</p>
+      /gogreen:image:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: 51499807-2c3d-4e10-8e1d-021a303c4371
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []
+      /gogreen:link:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: aeda2bcd-b21d-4ead-a2e6-c64a2ca051c8
+    /how-to-green-your-dorm-room[3]:
+      jcr:primaryType: gogreen:bannerdocument
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: e66a7e41-4df2-49e8-a4da-05174daa2da4
+      gogreen:title: How to green your dorm room
+      hippo:availability: [live]
+      hippo:related___pathreference: []
+      hippostd:state: published
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2019-12-30T01:23:06.184Z
+      hippostdpubwf:lastModificationDate: 2019-12-30T01:23:32.213Z
+      hippostdpubwf:lastModifiedBy: admin
+      hippostdpubwf:publicationDate: 2019-12-30T01:23:34.668Z
+      hippotranslation:id: b7c9b947-6a4b-4406-be5c-2bd5c4134a1f
+      hippotranslation:locale: en
+      /gogreen:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: |-
+          <p>Every year, college students generate thousands of tons of garbage, because of the choices they make in buying furniture and accessories. Luckily, getting your dorm to be</p>
+
+          <p>green has never been easier.</p>
+      /gogreen:image:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: 51499807-2c3d-4e10-8e1d-021a303c4371
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []
+      /gogreen:link:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: aeda2bcd-b21d-4ead-a2e6-c64a2ca051c8

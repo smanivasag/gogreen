@@ -1,0 +1,6 @@
+/hst:hst/hst:configurations/gogreen/hst:workspace/hst:containers/pagenotfound/main/teaser:
+  jcr:primaryType: hst:containeritemcomponent
+  hst:componentclassname: org.example.essentials.components.GogreenTeaserComponent
+  hst:iconpath: images/essentials/catalog-component-icons/simple-content.svg
+  hst:label: Teaser
+  hst:template: teaser-main

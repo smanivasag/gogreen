@@ -1,0 +1,24 @@
+/hst:hst/hst:configurations/gogreen/hst:workspace/hst:pages/another-home:
+  jcr:primaryType: hst:component
+  hst:lastmodified: 2020-04-01T20:27:47.180+05:30
+  hst:referencecomponent: hst:abstractpages/base
+  /main:
+    jcr:primaryType: hst:component
+    hst:template: homepage-main
+    /container:
+      jcr:primaryType: hst:containercomponent
+      hst:label: Home Page Main
+      hst:lastmodified: 2020-04-01T20:28:17.933+05:30
+      hst:xtype: hst.vbox
+      /carousel:
+        jcr:primaryType: hst:containeritemcomponent
+        hst:componentclassname: org.onehippo.cms7.essentials.components.EssentialsCarouselComponent
+        hst:iconpath: images/essentials/catalog-component-icons/carousel.svg
+        hst:label: Carousel
+        hst:parameternames: [document4, document3, document6, document5, document2,
+          document1, cycle, pause, carouselWidth, carouselHeight, carouselBackgroundColor,
+          showNavigation, interval]
+        hst:parametervalues: ['', banners/how-to-green-your-dorm-room, '', '', banners/is-a-smart-thermostat-worth-the-investment,
+          banners/10-simple-steps-to-green-your-office, 'on', 'on', '700', '250',
+          '#FFFFFF', 'off', '3000']
+        hst:template: essentials-carousel

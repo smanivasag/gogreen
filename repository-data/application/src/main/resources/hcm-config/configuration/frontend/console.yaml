@@ -1,0 +1,4 @@
+definitions:
+  config:
+    /hippo:configuration/hippo:frontend/console/console/root:
+      max.inactive.interval.minutes: '0'

@@ -1,0 +1,5 @@
+/hst:hst/hst:configurations/gogreen/hst:workspace/hst:sitemap/another-home:
+  jcr:primaryType: hst:sitemapitem
+  hst:componentconfigurationid: hst:pages/another-home
+  hst:lastmodified: 2020-04-01T20:27:47.180+05:30
+  hst:pagetitle: Home Page

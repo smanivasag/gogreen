@@ -1,0 +1,66 @@
+definitions:
+  config:
+    /hippo:configuration/hippo:translations/hippo:hst/componentparameters/org/example:
+      jcr:primaryType: hipposys:resourcebundles
+      /essentials:
+        jcr:primaryType: hipposys:resourcebundles
+        /components:
+          jcr:primaryType: hipposys:resourcebundles
+          /info:
+            jcr:primaryType: hipposys:resourcebundles
+            /GogreenTeaserComponentInfo:
+              jcr:primaryType: hipposys:resourcebundles
+              /en:
+                jcr:primaryType: hipposys:resourcebundle
+                ctaExternalLink: CTA External Link
+                ctaLabel: CTA Label
+                group.teaser: Teaser Details
+                image: Image
+                summary: Summary
+                title: Title
+                title.hint: Teaser Title
+              /de:
+                jcr:primaryType: hipposys:resourcebundle
+                ctaExternalLink: CTA External Link
+                ctaLabel: CTA Label
+                group.teaser: Teaser Detail
+                image: Image
+                summary: Summary
+                title: Title
+                title.hint: Teaser Title
+              /es:
+                jcr:primaryType: hipposys:resourcebundle
+                ctaExternalLink: CTA External Link
+                ctaLabel: CTA Label
+                group.teaser: Teaser Detail
+                image: Image
+                summary: Summary
+                title: Title
+                title.hint: Teaser Title
+              /fr:
+                jcr:primaryType: hipposys:resourcebundle
+                ctaExternalLink: CTA External Link
+                ctaLabel: CTA Label
+                group.teaser: Teaser Detail
+                image: Image
+                summary: Summary
+                title: Title
+                title.hint: Teaser Title
+              /nl:
+                jcr:primaryType: hipposys:resourcebundle
+                ctaExternalLink: CTA External Link
+                ctaLabel: CTA Label
+                group.teaser: Teaser Detail
+                image: Image
+                summary: Summary
+                title: Title
+                title.hint: Teaser Title
+              /zh:
+                jcr:primaryType: hipposys:resourcebundle
+                ctaExternalLink: CTA External Link
+                ctaLabel: CTA Label
+                group.teaser: Teaser Detail
+                image: Image
+                summary: Summary
+                title: Title
+                title.hint: Teaser Title

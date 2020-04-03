@@ -1,0 +1,238 @@
+/content/documents/gogreen/content:
+  .meta:order-before: about
+  jcr:primaryType: hippostd:folder
+  jcr:mixinTypes: ['hippotranslation:translated', 'mix:referenceable']
+  jcr:uuid: 1176938b-e75b-4633-aaef-08bc3846b5a4
+  hippostd:foldertype: [new-content-document, new-content-folder]
+  hippotranslation:id: 6956fcac-89b8-43c6-a10a-a89af28bc481
+  hippotranslation:locale: en
+  /sample-document:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['hippo:named', 'hippo:versionInfo', 'mix:referenceable']
+    jcr:uuid: 64ab4648-0c20-40d2-9f18-d7a394f0334b
+    hippo:name: Sample document
+    hippo:versionHistory: 11465808-b165-4bf8-ad03-503de8e52a4d
+    /sample-document[1]:
+      jcr:primaryType: gogreen:contentdocument
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 1b6a32d3-036c-42d0-9793-1c557e5d3a4f
+      gogreen:introduction: Lorem Ipsum is simply dummy text of the printing and typesetting
+        industry.
+      gogreen:publicationdate: 2014-03-25T16:52:00+01:00
+      gogreen:title: Lorem
+      hippo:availability: [live]
+      hippostd:holder: admin
+      hippostd:state: published
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2014-03-25T16:52:00+01:00
+      hippostdpubwf:lastModificationDate: 2014-03-25T16:52:00+01:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippostdpubwf:publicationDate: 2014-03-25T16:52:00+01:00
+      hippotranslation:id: a3e7696c-3da7-4774-baac-be02ad845133
+      hippotranslation:locale: en
+      /gogreen:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: |-
+          <html>
+                      <body>
+
+                      <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has
+                      roots in a piece of classical Latin literature from 45 BC, making it over 2000
+                      years old. Richard McClintock, a Latin professor at Hampden-Sydney College in
+                      Virginia, looked up one of the more obscure Latin words, consectetur, from a
+                      Lorem Ipsum passage, and going through the cites of the word in classical
+                      literature, discovered the undoubtable source. Lorem Ipsum comes from sections
+                      1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and
+                      Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of
+                      ethics, very popular during the Renaissance. The first line of Lorem Ipsum,
+                      "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</p>
+
+                      </body>
+                      </html>
+    /sample-document[2]:
+      jcr:primaryType: gogreen:contentdocument
+      jcr:mixinTypes: ['mix:referenceable', 'mix:versionable']
+      jcr:uuid: 67915093-411a-49e7-8ffb-c96560de6e4f
+      gogreen:introduction: Lorem Ipsum is simply dummy text of the printing and typesetting
+        industry.
+      gogreen:publicationdate: 2014-03-25T16:52:00+01:00
+      gogreen:title: Lorem
+      hippo:availability: [preview]
+      hippostd:state: unpublished
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2014-03-25T16:52:00+01:00
+      hippostdpubwf:lastModificationDate: 2014-03-25T16:52:00+01:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: a3e7696c-3da7-4774-baac-be02ad845133
+      hippotranslation:locale: en
+      /gogreen:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: |-
+          <html>
+                      <body>
+
+                      <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has
+                      roots in a piece of classical Latin literature from 45 BC, making it over 2000
+                      years old. Richard McClintock, a Latin professor at Hampden-Sydney College in
+                      Virginia, looked up one of the more obscure Latin words, consectetur, from a
+                      Lorem Ipsum passage, and going through the cites of the word in classical
+                      literature, discovered the undoubtable source. Lorem Ipsum comes from sections
+                      1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and
+                      Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of
+                      ethics, very popular during the Renaissance. The first line of Lorem Ipsum,
+                      "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</p>
+
+                      </body>
+                      </html>
+    /sample-document[3]:
+      jcr:primaryType: gogreen:contentdocument
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 2f0af01a-d122-4410-9638-d8bc717b43aa
+      gogreen:introduction: Lorem Ipsum is simply dummy text of the printing and typesetting
+        industry.
+      gogreen:publicationdate: 2014-03-25T16:52:00+01:00
+      gogreen:title: Lorem
+      hippo:availability: []
+      hippostd:state: draft
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2014-03-25T16:52:00+01:00
+      hippostdpubwf:lastModificationDate: 2020-04-01T16:17:27.525+05:30
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: a3e7696c-3da7-4774-baac-be02ad845133
+      hippotranslation:locale: en
+      /gogreen:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: |-
+          <html>
+                      <body>
+
+                      <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has
+                      roots in a piece of classical Latin literature from 45 BC, making it over 2000
+                      years old. Richard McClintock, a Latin professor at Hampden-Sydney College in
+                      Virginia, looked up one of the more obscure Latin words, consectetur, from a
+                      Lorem Ipsum passage, and going through the cites of the word in classical
+                      literature, discovered the undoubtable source. Lorem Ipsum comes from sections
+                      1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and
+                      Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of
+                      ethics, very popular during the Renaissance. The first line of Lorem Ipsum,
+                      "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</p>
+
+                      </body>
+                      </html>
+  /another-sample-document:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+    jcr:uuid: 9caea793-42b1-4f3e-a8e5-d58f810ce2ef
+    hippo:name: Another sample document
+    /another-sample-document:
+      jcr:primaryType: gogreen:contentdocument
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: ff77ab04-37d8-42e2-9bf9-b1978dfba5a7
+      gogreen:introduction: Lorem Ipsum is simply dummy text of the printing and typesetting
+        industry.
+      gogreen:publicationdate: 2014-03-25T16:52:00+01:00
+      gogreen:title: Another Lorem
+      hippo:availability: [live, preview]
+      hippostd:holder: admin
+      hippostd:state: published
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2014-03-25T16:52:00+01:00
+      hippostdpubwf:lastModificationDate: 2014-03-25T16:57:00+01:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippostdpubwf:publicationDate: 2014-03-25T16:57:00+01:00
+      hippotranslation:id: 47c009fb-423e-46c0-bdef-463c84493296
+      hippotranslation:locale: en
+      /gogreen:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: |-
+          <html>
+                      <body>
+
+                      <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has
+                      roots in a piece of classical Latin literature from 45 BC, making it over 2000
+                      years old. Richard McClintock, a Latin professor at Hampden-Sydney College in
+                      Virginia, looked up one of the more obscure Latin words, consectetur, from a
+                      Lorem Ipsum passage, and going through the cites of the word in classical
+                      literature, discovered the undoubtable source. Lorem Ipsum comes from sections
+                      1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and
+                      Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of
+                      ethics, very popular during the Renaissance. The first line of Lorem Ipsum,
+                      "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</p>
+
+                      </body>
+                      </html>
+  /quick-facts:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['hippo:versionInfo', 'mix:referenceable']
+    jcr:uuid: 3d56812d-b434-4eaf-9d35-25863af94693
+    hippo:versionHistory: 2e6cee13-c93e-45be-8d84-62bfbbd2076f
+    /quick-facts[1]:
+      jcr:primaryType: gogreen:contentdocument
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: e9e22a26-8abf-42bb-905c-e273c5b0033f
+      gogreen:introduction: "BloomReach is headquartered in Mountain View, CA with\
+        \ offices worldwide.\r\n\r\nBloomReach's industry-leading tools unlock the\
+        \ powerful creativity of humans to improve omnichannel customer experiences\
+        \ at scale. Together, our users and our intelligent tools generate millions\
+        \ of dollars of proven incremental sales."
+      gogreen:publicationdate: 0001-01-01T13:00:00+01:00
+      gogreen:title: Quick facts about BloomReach
+      hippo:availability: []
+      hippo:related___pathreference: []
+      hippostd:state: draft
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2020-02-17T00:46:06.350Z
+      hippostdpubwf:lastModificationDate: 2020-02-17T00:46:38.300Z
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: 1ea7f132-11fc-47fd-a0c8-26efbcd77cbe
+      hippotranslation:locale: en
+      /gogreen:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: ''
+    /quick-facts[2]:
+      jcr:primaryType: gogreen:contentdocument
+      jcr:mixinTypes: ['mix:referenceable', 'mix:versionable']
+      jcr:uuid: 57080968-4479-42c4-b44e-5efb8987a35b
+      gogreen:introduction: "BloomReach is headquartered in Mountain View, CA with\
+        \ offices worldwide.\r\n\r\nBloomReach's industry-leading tools unlock the\
+        \ powerful creativity of humans to improve omnichannel customer experiences\
+        \ at scale. Together, our users and our intelligent tools generate millions\
+        \ of dollars of proven incremental sales."
+      gogreen:publicationdate: 0001-01-01T13:00:00+01:00
+      gogreen:title: Quick facts about BloomReach
+      hippo:availability: [preview]
+      hippo:related___pathreference: []
+      hippostd:state: unpublished
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2020-02-17T00:46:06.350Z
+      hippostdpubwf:lastModificationDate: 2020-02-17T00:50:46.048Z
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: 1ea7f132-11fc-47fd-a0c8-26efbcd77cbe
+      hippotranslation:locale: en
+      /gogreen:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: ''
+    /quick-facts[3]:
+      jcr:primaryType: gogreen:contentdocument
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: c5340bc7-8cf1-4372-aa96-b998d9122c6b
+      gogreen:introduction: "BloomReach is headquartered in Mountain View, CA with\
+        \ offices worldwide.\r\n\r\nBloomReach's industry-leading tools unlock the\
+        \ powerful creativity of humans to improve omnichannel customer experiences\
+        \ at scale. Together, our users and our intelligent tools generate millions\
+        \ of dollars of proven incremental sales."
+      gogreen:publicationdate: 0001-01-01T13:00:00+01:00
+      gogreen:title: Quick facts about BloomReach
+      hippo:availability: [live]
+      hippo:related___pathreference: []
+      hippostd:state: published
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2020-02-17T00:46:06.350Z
+      hippostdpubwf:lastModificationDate: 2020-02-17T00:50:46.048Z
+      hippostdpubwf:lastModifiedBy: admin
+      hippostdpubwf:publicationDate: 2020-02-17T00:50:48.681Z
+      hippotranslation:id: 1ea7f132-11fc-47fd-a0c8-26efbcd77cbe
+      hippotranslation:locale: en
+      /gogreen:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: ''

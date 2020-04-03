@@ -1,0 +1,19 @@
+/content/documents/gogreen/categories:
+  jcr:primaryType: hippo:handle
+  jcr:mixinTypes: ['mix:referenceable']
+  jcr:uuid: d76ba6a0-7bfc-49f5-bc40-9e7590f0ea41
+  /categories:
+    jcr:primaryType: selection:valuelist
+    jcr:mixinTypes: ['hippotranslation:translated', 'mix:referenceable']
+    jcr:uuid: d9cb4371-0365-4c2a-a76b-09e0abeb5ee7
+    hippo:availability: [live, preview]
+    hippotranslation:id: 9cc5cc16-d81e-4710-9878-19d4ca51b8d9
+    hippotranslation:locale: en
+    /selection:listitem[1]:
+      jcr:primaryType: selection:listitem
+      selection:key: 'true'
+      selection:label: T
+    /selection:listitem[2]:
+      jcr:primaryType: selection:listitem
+      selection:key: 'false'
+      selection:label: F
