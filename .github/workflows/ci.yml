@@ -62,7 +62,7 @@ jobs:
         run: mvn -B help:effective-settings
 
       - name: Publish to GitHub Packages Apache Maven
-        run: mvn -B verify && mvn deploy -Pdist --file pom.xml -Dmaven.wagon.http.pool=false -X -e
+        run: mvn -B verify && mvn deploy -Pdist --file pom.xml -X -e
         env:
           # GITHUB_ACTOR: smanivasag
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
