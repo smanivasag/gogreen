@@ -48,12 +48,14 @@
   <ciManagement/>
   <distributionManagement>
     <repository>
-      <id>-</id>
-      <url>-</url>
+      <id>github</id>
+      <name>GitHub smanivasag Apache Maven Packages</name>
+      <url>https://maven.pkg.github.com/smanivasag/hee-content-management-system</url>
     </repository>
     <snapshotRepository>
-      <id>-</id>
-      <url>-</url>
+      <id>github</id>
+      <name>GitHub smanivasag Apache Maven Packages</name>
+      <url>https://maven.pkg.github.com/smanivasag/hee-content-management-system</url>
     </snapshotRepository>
   </distributionManagement>
   <!-- End of emptied/overridden metadata from parent hippo-cms7-release pom. -->
