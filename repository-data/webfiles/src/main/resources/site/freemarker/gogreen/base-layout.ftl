@@ -5,7 +5,7 @@
 <head>
     <title>${document.title?html}</title>
     <meta charset="utf-8">
-    <meta name="description" content="${document.introduction?html}">
+    <meta name="description" content="${document.description?html}">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="<@hst.webfile path="/css/bootstrap.css"/>">
     <link rel="stylesheet" href="<@hst.webfile path="/css/font-awesome.css"/>">

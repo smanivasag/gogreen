@@ -1,0 +1,69 @@
+/content/documents/gogreen/pagemetadata:
+  jcr:primaryType: hippostd:folder
+  jcr:mixinTypes: ['hippo:named', 'hippotranslation:translated', 'mix:versionable']
+  jcr:uuid: 46bf4156-f1f6-4f91-af85-d9fc85e54322
+  hippo:name: PageMetaData
+  hippostd:foldertype: [new-pageMetaData-folder, new-pageMetaData-document]
+  hippotranslation:id: c96d93c7-2e10-49f9-8340-f1501a36369b
+  hippotranslation:locale: en
+  /home:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['hippo:named', 'hippo:versionInfo', 'mix:referenceable']
+    jcr:uuid: fd0ef3c6-f9de-4808-b26a-b0453b53d6a4
+    hippo:name: Home
+    hippo:versionHistory: eab97757-5e55-4a28-8ec2-008b109a5d1d
+    /home[1]:
+      jcr:primaryType: gogreen:pageMetaData
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 22347e2f-9e27-4ac9-a2c5-86b0b4153757
+      gogreen:description: 'Health Education England (HEE) exists for one reason only:
+        to support the delivery of excellent healthcare and health improvement to
+        the patients and public of England by ensuring that the workforce of today
+        and tomorrow has the right numbers, skills, values and behaviours, at the
+        right time and in the right place.'
+      gogreen:title: Health Education England
+      hippo:availability: []
+      hippostd:state: draft
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2020-04-03T11:35:32.568+05:30
+      hippostdpubwf:lastModificationDate: 2020-04-03T11:35:32.569+05:30
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: e6e1e9aa-8979-41dc-a1bb-691cb95ca8e5
+      hippotranslation:locale: en
+    /home[2]:
+      jcr:primaryType: gogreen:pageMetaData
+      jcr:mixinTypes: ['mix:referenceable', 'mix:versionable']
+      jcr:uuid: 1ecf1839-a31c-4d4a-bc2d-b50aa5978fb2
+      gogreen:description: 'Health Education England (HEE) exists for one reason only:
+        to support the delivery of excellent healthcare and health improvement to
+        the patients and public of England by ensuring that the workforce of today
+        and tomorrow has the right numbers, skills, values and behaviours, at the
+        right time and in the right place.'
+      gogreen:title: Health Education England
+      hippo:availability: [preview]
+      hippostd:state: unpublished
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2020-04-03T11:35:32.568+05:30
+      hippostdpubwf:lastModificationDate: 2020-04-03T11:37:34.808+05:30
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: e6e1e9aa-8979-41dc-a1bb-691cb95ca8e5
+      hippotranslation:locale: en
+    /home[3]:
+      jcr:primaryType: gogreen:pageMetaData
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: bca6231b-ce80-4cfb-af50-528dcd88ba8c
+      gogreen:description: 'Health Education England (HEE) exists for one reason only:
+        to support the delivery of excellent healthcare and health improvement to
+        the patients and public of England by ensuring that the workforce of today
+        and tomorrow has the right numbers, skills, values and behaviours, at the
+        right time and in the right place.'
+      gogreen:title: Health Education England
+      hippo:availability: [live]
+      hippostd:state: published
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2020-04-03T11:35:32.568+05:30
+      hippostdpubwf:lastModificationDate: 2020-04-03T11:37:34.808+05:30
+      hippostdpubwf:lastModifiedBy: admin
+      hippostdpubwf:publicationDate: 2020-04-03T11:37:42.788+05:30
+      hippotranslation:id: e6e1e9aa-8979-41dc-a1bb-691cb95ca8e5
+      hippotranslation:locale: en

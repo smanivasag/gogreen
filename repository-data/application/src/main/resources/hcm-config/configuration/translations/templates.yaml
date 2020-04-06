@@ -22,6 +22,8 @@ definitions:
       new-content-document: new content document
       new-gogreen-imageset-image: New Image
       new-gogreen-imageset-folder: new folder
+      new-pageMetaData-document: new pageMetaData document
+      new-pageMetaData-folder: new pageMetaData folder
     /hippo:configuration/hippo:translations/hippo:templates/fr:
       new-banner-folder: nouveau dossier bannière
       new-banner-document: nouvelle bannière
