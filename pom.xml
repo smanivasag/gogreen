@@ -404,8 +404,8 @@
                 <configuration>
                   <descriptors>
                     <descriptor>${project.basedir}/src/main/assembly/distribution.xml</descriptor>
-                    <appendAssemblyId>false</appendAssemblyId>
                   </descriptors>
+                  <appendAssemblyId>false</appendAssemblyId>
                 </configuration>
               </execution>
             </executions>
