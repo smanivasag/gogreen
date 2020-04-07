@@ -23,12 +23,21 @@ jobs:
           key: ${{ runner.os }}-m2-${{ hashFiles('**/pom.xml') }}
           restore-keys: ${{ runner.os }}-m2
 
+      - name: cat maven settings.xml file 2
+        run: cat ~/.m2/settings.xml
+
       - name: Configure maven settings
         uses: whelk-io/maven-settings-xml-action@v4
         with:
           repositories: '[{ "id": "hippo-maven2-enterprise", "url": "https://maven.onehippo.com/maven2-enterprise/" }]'
           plugin_repositories: '[{ "id": "hippo-maven2-enterprise", "url": "https://maven.onehippo.com/maven2-enterprise/" }]'
           servers: '[{ "id": "hippo-maven2-enterprise", "username": "${{ secrets.BLOOMREACH_MVN_USERNAME }}", "password": "${{ secrets.BLOOMREACH_MVN_PASSWORD }}" }, { "id": "github", "username": "${env.GITHUB_ACTOR}", "password": "${env.GITHUB_TOKEN}" }]'
+
+      - name: prints effective-settings 1
+        run: mvn -B help:effective-settings
+
+      - name: cat maven settings.xml file 1
+        run: cat ~/.m2/settings.xml
 
       - name: Compile
         run: mvn -B clean compile
